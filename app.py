@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Load the YOLO model
-model = YOLO("bee.pt", device="cpu")
+model = YOLO("bee.pt")
 
 st.title("🐝 Queen Bee Detection using YOLOv8")
 
